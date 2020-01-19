@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 import javax.print.PrintService;
 import util.PropertyHandler;
-import model.IModelToViewAdaptor;
+import model.IModelToViewAdapter;
 
 
 public class LabelPrinter {
@@ -20,11 +20,11 @@ public class LabelPrinter {
 	private BarcodeGenerator bcgen;
 	private PrintService service;
 	
-	private IModelToViewAdaptor viewAdaptor;
+	private IModelToViewAdapter viewAdaptor;
 	private PropertyHandler propHandler;
 	private Logger logger; 
 	
-	public LabelPrinter(IModelToViewAdaptor viewAdaptor) {
+	public LabelPrinter(IModelToViewAdapter viewAdaptor) {
 		this.bcgen = new BarcodeGenerator();
 		this.viewAdaptor = viewAdaptor;
 		this.propHandler = PropertyHandler.getInstance();

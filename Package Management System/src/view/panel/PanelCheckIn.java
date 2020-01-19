@@ -131,7 +131,8 @@ public class PanelCheckIn extends JPanel {
 						+ "Please reprint the label from the packages tab of the admin panel.", 
 						"Failed Print", JOptionPane.WARNING_MESSAGE);
 			}
-			
+
+
 			// send a package notification
 			if (!modelAdaptor.sendPackageNotification(owner.getPersonID(), pkgID)) {
 				JOptionPane.showMessageDialog(frame, "Failed to send package notification.\n"

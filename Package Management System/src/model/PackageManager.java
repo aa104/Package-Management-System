@@ -21,20 +21,20 @@ import util.Person;
  */
 public class PackageManager {
 
-	private IModelToViewAdaptor viewAdaptor;
+	private IModelToViewAdapter viewAdapter;
 	
 	private Database db;
 	private Emailer mailer;
 	private LabelPrinter printer;
 	
-	public PackageManager(IModelToViewAdaptor adpt) {
+	public PackageManager(IModelToViewAdapter adpt) {
 		
-		viewAdaptor = adpt;
+		viewAdapter = adpt;
 		
 		// initialize the database
-		db = new Database(viewAdaptor);
-		mailer = new Emailer(viewAdaptor);
-		printer = new LabelPrinter(viewAdaptor);
+		db = new Database(viewAdapter);
+		mailer = new Emailer(viewAdapter);
+		printer = new LabelPrinter(viewAdapter);
 	}
 	
 	public void start() {

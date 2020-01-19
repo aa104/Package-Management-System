@@ -18,18 +18,18 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import util.FileIO;
-import model.IModelToViewAdaptor;
+import model.IModelToViewAdapter;
 
 public class TemplateHandler {
 
-	static IModelToViewAdaptor viewAdaptor;
+	static IModelToViewAdapter viewAdaptor;
 	static String headers = 
 			"NOTIFICATION-SUBJECT|NOTIFICATION-BODY|REMINDER-SUBJECT|REMINDER-BODY|SENDER-ALIAS|AUTO-LINEBREAK";
 	
 	static Pattern varResolutionPat = Pattern.compile("(?<!\\\\)\\$([A-Z\\-]*)");
 	static Map<String, Matcher> varResolutionMats= new HashMap<String, Matcher>();
 	
-	public static void setViewAdaptor (IModelToViewAdaptor _viewAdaptor) { viewAdaptor = _viewAdaptor; }
+	public static void setViewAdaptor (IModelToViewAdapter _viewAdaptor) { viewAdaptor = _viewAdaptor; }
 	
 	public static HashMap<String,String> getTemplates(boolean convert, boolean comments) {
 		String RootDir = FileIO.getRootDir();
@@ -95,11 +95,8 @@ public class TemplateHandler {
 			os = new FileOutputStream(filePath, false);
 			os.write(newTemplate.getBytes());
 			os.close();
-		} catch (FileNotFoundException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		}
 	}
@@ -122,11 +119,7 @@ public class TemplateHandler {
 			}
 			
 			wr.close();
-		} catch (FileNotFoundException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

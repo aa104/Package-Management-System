@@ -13,7 +13,7 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.logging.Logger;
 
-import model.IModelToViewAdaptor;
+import model.IModelToViewAdapter;
 
 /*
  * Class that handles operations to and from the data files and DBMaps
@@ -21,7 +21,7 @@ import model.IModelToViewAdaptor;
 
 public class Database {
 	
-	IModelToViewAdaptor viewAdaptor;
+	IModelToViewAdapter viewAdaptor;
 	
 	private DBMaps dbMaps;
 	private DBFileIO dbIO;
@@ -32,7 +32,7 @@ public class Database {
 	
 	private Logger logger;
 
-	public Database(IModelToViewAdaptor viewAdaptor) {
+	public Database(IModelToViewAdapter viewAdaptor) {
 		
 		this.viewAdaptor = viewAdaptor;
 		

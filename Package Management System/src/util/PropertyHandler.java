@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.logging.Logger;
 
 /**
  * PropertyHandler class for the project management utility.
@@ -23,6 +24,7 @@ public class PropertyHandler {
 	
 	private Properties props;
 	private String propsFilePath;
+	private Logger logger;
 	
 	private PropertyHandler() {
 		// prevents multiple instantiation of singleton class
@@ -43,12 +45,14 @@ public class PropertyHandler {
 				props.load(inProps);
 				inProps.close();
 			} else if(!propsDir.exists()){
-				//TODO add to logger
+
+				logger.info("Creating new properties directory");
 				System.out.println("Creating new properties directory");
 				propsDir.mkdirs();
 			}
 		} catch (IOException e) {
 			// Add to logger
+			logger.info("Failed to read properties file");
 			System.out.println("Failed to read properties file: " + propsFilePath);
 		} finally {
 			// Add programDirectory passed to settings function

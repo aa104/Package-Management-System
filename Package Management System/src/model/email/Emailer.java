@@ -20,7 +20,7 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
-import model.IModelToViewAdaptor;
+import model.IModelToViewAdapter;
 import util.FileIO;
 import util.Package;
 import util.Pair;
@@ -49,9 +49,9 @@ public class Emailer {
 	//private HashMap<String,String> templates;
 	
 	private Logger logger;
-	private IModelToViewAdaptor viewAdaptor;
+	private IModelToViewAdapter viewAdaptor;
 	
-	public Emailer(IModelToViewAdaptor viewAdaptor) {
+	public Emailer(IModelToViewAdapter viewAdaptor) {
 		// get PropertyHandler and logger instance
 		this.propHandler = PropertyHandler.getInstance();
 		this.logger = Logger.getLogger(Emailer.class.getName());
@@ -204,6 +204,10 @@ public class Emailer {
 
 		String body = templates.get("NOTIFICATION-BODY");
 		String subject = templates.get("NOTIFICATION-SUBJECT");
+
+		//TODO: Add some kind of mechanic to send packages in a staggered fashion. Not here
+		// 1) Add person to a list Maybe a list that sends packa
+		// send a package notification
 		try {
 			connect();
 			sendEmail(recipient.getEmailAddress(), recipient.getFullName(), subject, body);

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.logging.Logger;
 
-import model.IModelToViewAdaptor;
+import model.IModelToViewAdapter;
 import model.PackageManager;
 import util.FileIO;
 import util.LogHandler;
@@ -158,7 +158,7 @@ public class Controller{
 		});
 		
 		/* Initialize model */
-		modelPM = new PackageManager(new IModelToViewAdaptor() {
+		modelPM = new PackageManager(new IModelToViewAdapter() {
 			public void displayMessage(String message, String title) {
 				viewFrame.displayMessage(message, title);
 				
