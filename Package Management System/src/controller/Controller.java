@@ -203,13 +203,17 @@ public class Controller{
 	public void init() {
 		// set and create root directory, if it doesn't exist
 		String home = System.getProperty("user.home");
+
 		this.progDirName = home + "/Documents/Package Management System";
-		
+		System.out.println(progDirName);
 		FileIO.init(progDirName);
 		FileIO.makeDirs(progDirName);
 		
 		// Start helper classes
+//		propHandler.printAllProperties();
+
 		propHandler.init(progDirName);
+		propHandler.printAllProperties();
 		logHandler.init(progDirName);
 		
 		logHandler.cleanLogs();

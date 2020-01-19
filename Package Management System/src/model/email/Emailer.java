@@ -67,16 +67,21 @@ public class Emailer {
 	
 	public void start(ArrayList<Pair<Person, Package>> activeEntriesSortedByPerson) {
 		// get properties from PropertyHandler
+
 		this.senderAddress = propHandler.getProperty("email.email_address");
 		this.senderPassword = propHandler.getProperty("email.password");
 		this.senderAlias = propHandler.getProperty("email.alias");
-		 
+		System.out.printf("[Emailer.start()] ADDRESS: %s, PASSWORD: %s, ALIAS: %s.%n",senderAddress, senderPassword, senderAlias );
+
+
+		// TODO: What do you mena by loaded? Doesn't allow proper start up.
 		// warn the user if the email properties were not loaded
 		while(this.senderAddress == null || this.senderPassword == null || this.senderAlias == null) {
 			logger.warning("Failed to load email properties.");
 			viewAdaptor.displayMessage("Email information was not loaded from file.\n"
 					+ "Please change email information in the next window.", 
-					"Email Not Loaded");			
+					"Email Not Loaded");
+			System.out.println("[Emailer.start()]  A FIELD IS NULL. REQUESTING EMAIL CHANGE ");
 			changeEmail();
 		}
 		
@@ -96,6 +101,7 @@ public class Emailer {
 	 */
 	public void setEmailProperties(String newAlias, String newAddress, String newPassword) {
 
+		System.out.printf("[Emailer.setEmailProperties()] ADDRESS: %s , PASSWORD: %s , ALIAS: %s.", newAddress, newPassword, newAlias);
 		propHandler.setProperty("email.email_address",newAddress);
 		propHandler.setProperty("email.password",newPassword);
 		propHandler.setProperty("email.alias",newAlias);
@@ -123,10 +129,9 @@ public class Emailer {
 			} catch (AuthenticationFailedException e){ 
 					System.err.format(e.toString());
 					e.printStackTrace();
-					
-					viewAdaptor.displayMessage("Incorrect username or password.\n","");
-					
-					
+
+					viewAdaptor.displayMessage("Incorrect username or password.\n","Wrong username/password");
+
 					if (!changeEmail()) {
 						retry = false;
 						viewAdaptor.displayMessage("Emails will not be sent until a connection is established.",
@@ -236,6 +241,13 @@ public class Emailer {
 			throws NoSuchProviderException, MessagingException {
 		
 		Properties props = System.getProperties();
+
+		// TODO: Exception coming from here. Apparently password and sender address are done incorrectly
+		System.out.println("[Emailer.connect()] BEFORE transport.connect()");
+		System.out.println("[Emailer.connect()] HOST: " + host);
+		System.out.println("[Emailer.connect()] SENDER_ADDRESS: " + senderAddress);
+		System.out.println("[Emailer.connect()] SENDER_PASSWORD:" + senderPassword);
+
         props.put("mail.smtp.starttls.enable", "true");
         props.put("mail.smtp.host", host);
         props.put("mail.smtp.user", senderAddress);
@@ -245,7 +257,10 @@ public class Emailer {
         session = Session.getDefaultInstance(props);
 		transport = session.getTransport("smtp");
 		transport.connect(host, senderAddress, senderPassword);
-		
+
+		// THIS DOESN'T PRINT: System.out.println("[Emailer.connect()]    AFTER transport.connect() ");
+
+
 	}
 	
 	// send an email through the mail server
@@ -271,7 +286,7 @@ public class Emailer {
 
 	// close the connection to the mail server
 	private void closeConnection() throws MessagingException {
-        transport.close();
+		transport.close();
 	}
 	
 	/**
@@ -348,6 +363,7 @@ public class Emailer {
 	 * @return								True if the user input email information
 	 */
 	private boolean changeEmail() {
+		System.out.println("[Emailer.changeEmail()] Attempted to change email");
 		String[] newEmail = viewAdaptor.changeEmail(senderAddress,senderPassword,senderAlias);
 		if(newEmail != null) {
 			setEmailProperties(newEmail[0],newEmail[1],newEmail[2]);

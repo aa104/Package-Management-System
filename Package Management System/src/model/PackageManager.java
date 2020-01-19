@@ -49,7 +49,6 @@ public class PackageManager {
 	/*
 	 * Emailer functions
 	 */
-	
 	public boolean sendPackageNotification(String personID, long pkgID) {
 		Person person = db.getPerson(personID);
 		Package pkg = db.getPackage(pkgID);

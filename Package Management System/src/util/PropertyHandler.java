@@ -78,6 +78,7 @@ public class PropertyHandler {
 	}
 	
 	public void setProperty(String key, String value) {
+//		System.out.println("[PropertyHandler.setProperty()]     PROPERTY BEING SET: (Key)" + key+ "Value: " + value);
 		props.setProperty(key, value);
 		
 		try {
@@ -90,6 +91,15 @@ public class PropertyHandler {
 			System.out.println("Failed to write properties file: " + propsFilePath);
 		}
 		
+	}
+
+	/**
+	 *
+	 */
+	public void printAllProperties() {
+		props.forEach((a,b) -> {
+			System.out.printf(" Key: %s, Property: %s. %n", a , b);
+		});
 	}
 	
 /*

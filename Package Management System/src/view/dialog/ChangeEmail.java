@@ -83,6 +83,7 @@ public class ChangeEmail extends JDialog {
 		textFieldNewEmailName.setToolTipText(
 				"The name displayed in the \"From:\" field. For example, Jones Mail Room");
 		textFieldNewEmailName.setColumns(10);
+
 		textFieldNewEmailName.setText(oldName);
 		textFieldNewEmailName.addFocusListener(new FocusAdapter() {
 			public void focusGained(FocusEvent arg0) {
@@ -115,9 +116,13 @@ public class ChangeEmail extends JDialog {
 			}
 		});
 		panelEditEmail.add(textFieldNewEmail, "6, 5, fill, default");
-		
+		// TODO: Exception coming from here: where is the passowrd being set
+
+
 		// New Password Field
+		System.out.println("[ChangeEmail().ChangeEmail()] SYSTEM PASSWORD" + System.getProperty("mail.smtp.password"));
 		JLabel lblNewPassword = new JLabel("Password");
+
 		panelEditEmail.add(lblNewPassword, "4, 6, left, default");
 		
 		passwordNew = new JPasswordField();
