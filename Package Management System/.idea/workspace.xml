@@ -2,139 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="908c6d0d-efd9-498c-8b47-0ca01edfc158" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Package Management System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Package Management System.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/controller/Controller$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/controller/Controller$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/controller/Controller$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/controller/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/IModelToViewAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/PackageManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFileIO$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFileIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$SortType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBMaps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/Database.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/FileFormatException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/email/Emailer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/email/TemplateHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/print/BarcodeGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/print/LabelPrintable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/print/LabelPrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/util/FileIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/util/LogHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/util/Package.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/util/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/util/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/util/PropertyHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/IViewToModelAdaptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/MainFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/MainFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/component/PersonComboBox$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/component/PersonComboBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$Predicate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ConfirmPickUp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ConfirmPickUp$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ConfirmPickUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/EditTemplate$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/EditTemplate$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/EditTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/EditTemplateEasy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/EditTemplateEasy$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/EditTemplateEasy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelCheckIn$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelCheckIn$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelCheckIn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditEmailPrinter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditEmailPrinter$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditEmailPrinter$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditEmailPrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelPickUp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelPickUp$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelPickUp$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelPickUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/TabbedPaneAdmin$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/TabbedPaneAdmin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/IModelToViewAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/PackageManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/database/DBFileIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/database/DBFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/database/DBMaps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/database/Database.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/database/FileFormatException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/email/Emailer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/email/TemplateHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/print/BarcodeGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/print/LabelPrintable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/print/LabelPrinter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/FileIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/LogHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/Package.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/Pair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/PropertyHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/IViewToModelAdaptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/component/PersonComboBox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/dialog/AddPerson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/dialog/ChangeEmail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/dialog/ConfirmPickUp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/dialog/EditTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/dialog/EditTemplateEasy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/panel/PanelCheckIn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/panel/PanelEditEmailPrinter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/panel/PanelEditPackages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/panel/PanelPickUp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/panel/PanelStudentInformation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/panel/TabbedPaneAdmin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../email-template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../email-template.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -146,11 +16,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/database/DBMaps.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+            <state relative-caret-position="-3812">
+              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+              <folding>
+                <element signature="docComment;method#init#0;class#Controller#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.classpath">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="8" column="145" selection-start-line="8" selection-start-column="145" selection-end-line="8" selection-end-column="145" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/PropertyHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="100" column="28" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
+              <folding>
+                <element signature="e#1949#1950#0" expanded="true" />
+                <element signature="e#1985#1986#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,10 +70,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>main</find>
-      <find>printign</find>
-      <find>printing al</find>
-      <find>emailer</find>
       <find>printAllPro</find>
       <find>viewAdapter</find>
       <find>modeltovi</find>
@@ -196,6 +96,10 @@
       <find>setProperty</find>
       <find>p</find>
       <find>viewAdaptor</find>
+      <find>printAllPropertie</find>
+      <find>1.7</find>
+      <find>source</find>
+      <find>7</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -223,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/model/email/Emailer2.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/util/PropertyHandler.java" />
+        <option value="$PROJECT_DIR$/.classpath" />
       </list>
     </option>
   </component>
@@ -244,8 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,17 +167,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Package Management System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Package Management System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,24 +258,33 @@
       <option name="presentableId" value="Default" />
       <updated>1579384631708</updated>
     </task>
+    <task id="LOCAL-00001" summary="Committing changes">
+      <created>1581115389278</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581115389278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2637584" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2671141" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32885906" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32885906" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
@@ -396,6 +303,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Committing changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committing changes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/model/IModelToViewAdapter.java">
@@ -556,13 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/view/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -609,9 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="98" column="54" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -653,40 +554,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/PropertyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
-          <folding>
-            <element signature="e#1949#1950#0" expanded="true" />
-            <element signature="e#1985#1986#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-          <folding>
-            <element signature="class#1453:4096" />
-            <element signature="class#4437:5501" />
-            <element signature="docComment;method#init#0;class#Controller#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/PackageManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -699,8 +570,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/database/DBMaps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        <state relative-caret-position="261">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3812">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;method#init#0;class#Controller#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/BiConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="145" selection-start-line="8" selection-start-column="145" selection-end-line="8" selection-end-column="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/PropertyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="100" column="28" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
+          <folding>
+            <element signature="e#1949#1950#0" expanded="true" />
+            <element signature="e#1985#1986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>
