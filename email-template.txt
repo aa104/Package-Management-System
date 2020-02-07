@@ -60,10 +60,10 @@ AUTO-LINEBREAK:
 TRUE
 
 SENDER-ALIAS:
-Jones College Mail Room
+Duncan College Mail Room
 
 NOTIFICATION-SUBJECT:
-[JONES-MAIL] Package Notification - "$COMMENT"
+[DUNCAN-MAIL] Package Notification - "$COMMENT"
 
 NOTIFICATION-BODY:
 Hello <b>$FNAME</b>,
@@ -75,7 +75,7 @@ Thanks,
 <em>$ALIAS</em>
 
 REMINDER-SUBJECT:
-[JONES-MAIL] Package Reminder - You have $NUMPKGS package(s) in the mail room.
+[DUNCAN-MAIL] Package Reminder - You have $NUMPKGS package(s) in the mail room.
 
 REMINDER-BODY:
 Hello <b>$FNAME</b>,

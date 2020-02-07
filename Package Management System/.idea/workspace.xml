@@ -2,97 +2,142 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="908c6d0d-efd9-498c-8b47-0ca01edfc158" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/IModelToViewAdaptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/PackageManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/PackageManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFileIO$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/database/DBFileIO$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFileIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/database/DBFileIO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$SortType.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/database/DBFormat$SortType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/database/DBFormat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/DBMaps.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/database/DBMaps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/database/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/database/FileFormatException.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/database/FileFormatException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/email/Emailer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/email/Emailer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/print/BarcodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/print/BarcodeGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/print/LabelPrintable.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/print/LabelPrintable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/model/print/LabelPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/print/LabelPrinter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/util/FileIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/util/FileIO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/util/LogHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/util/LogHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/util/Package.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/util/Package.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/util/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/util/Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/util/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/util/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/util/PropertyHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/util/PropertyHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/IViewToModelAdaptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/IViewToModelAdaptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/MainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/MainFrame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/component/PersonComboBox$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/component/PersonComboBox$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/component/PersonComboBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/component/PersonComboBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/AddPerson$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/AddPerson$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/AddPerson$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/AddPerson$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/AddPerson$3$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/AddPerson$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/AddPerson$4$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/AddPerson$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/AddPerson$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$Predicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/AddPerson$Predicate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/AddPerson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ConfirmPickUp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/ConfirmPickUp$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ConfirmPickUp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/ConfirmPickUp$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ConfirmPickUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/dialog/ConfirmPickUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelCheckIn$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelCheckIn$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelCheckIn$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelCheckIn$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelCheckIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelCheckIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditEmailPrinter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelEditEmailPrinter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditEmailPrinter$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelEditEmailPrinter$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditEmailPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelEditEmailPrinter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelPickUp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelPickUp$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelPickUp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelPickUp$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelPickUp$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelPickUp$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelPickUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelPickUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/TabbedPaneAdmin$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/TabbedPaneAdmin$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/view/panel/TabbedPaneAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/view/panel/TabbedPaneAdmin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/PackageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/PackageManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/email/Emailer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/email/Emailer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/PropertyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/PropertyHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/dialog/ChangeEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/dialog/ChangeEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package Management System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Package Management System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/controller/Controller$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/controller/Controller$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/controller/Controller$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/IModelToViewAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/PackageManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFileIO$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$DBComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat$SortType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/database/DBFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/database/DBMaps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/database/Database.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/database/FileFormatException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/email/Emailer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/email/TemplateHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/print/BarcodeGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/print/LabelPrintable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/print/LabelPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/util/FileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/util/LogHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/util/Package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/util/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/util/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/util/PropertyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/IViewToModelAdaptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/MainFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/MainFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/component/PersonComboBox$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/component/PersonComboBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson$Predicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/AddPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ChangeEmail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ConfirmPickUp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ConfirmPickUp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/ConfirmPickUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/EditTemplate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/EditTemplate$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/EditTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/EditTemplateEasy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/EditTemplateEasy$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/dialog/EditTemplateEasy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelCheckIn$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelCheckIn$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelCheckIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditEmailPrinter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditEmailPrinter$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditEmailPrinter$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditEmailPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelEditPackages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelPickUp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelPickUp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelPickUp$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelPickUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/PanelStudentInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/TabbedPaneAdmin$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/view/panel/TabbedPaneAdmin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/IModelToViewAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/PackageManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/database/DBFileIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/database/DBFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/database/DBMaps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/database/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/database/FileFormatException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/email/Emailer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/email/TemplateHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/print/BarcodeGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/print/LabelPrintable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/print/LabelPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/FileIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/LogHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Package.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/PropertyHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/IViewToModelAdaptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MainFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/component/PersonComboBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/dialog/AddPerson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/dialog/ChangeEmail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/dialog/ConfirmPickUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/dialog/EditTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/dialog/EditTemplateEasy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/panel/PanelCheckIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/panel/PanelEditEmailPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/panel/PanelEditPackages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/panel/PanelPickUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/panel/PanelStudentInformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/panel/TabbedPaneAdmin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../email-template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../email-template.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,116 +145,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/PackageManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="78" column="23" lean-forward="true" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
-              <folding>
-                <element signature="e#1929#1930#0" expanded="true" />
-                <element signature="e#1968#1969#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/email/Emailer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="70" column="43" lean-forward="true" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
-              <folding>
-                <element signature="e#7048#7049#0" expanded="true" />
-                <element signature="e#7075#7076#0" expanded="true" />
-                <element signature="e#12176#12185#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/PropertyHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="98" column="38" lean-forward="true" selection-start-line="98" selection-start-column="38" selection-end-line="98" selection-end-column="38" />
-              <folding>
-                <element signature="e#1949#1950#0" expanded="true" />
-                <element signature="e#1985#1986#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/dialog/ChangeEmail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="122" column="73" selection-start-line="122" selection-start-column="73" selection-end-line="122" selection-end-column="73" />
-              <folding>
-                <element signature="e#2846#3096#0" expanded="true" />
-                <element signature="e#3095#3096#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/panel/PanelEditEmailPrinter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="51" column="62" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/database/DBMaps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="207" column="38" selection-start-line="207" selection-start-column="38" selection-end-line="207" selection-end-column="38" />
-              <folding>
-                <element signature="e#2919#2920#0" expanded="true" />
-                <element signature="e#2962#2963#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>defaults</find>
-      <find>Properties(</find>
-      <find>aa</find>
-      <find>senderAddress</find>
-      <find>put</find>
-      <find>senderAdress</find>
-      <find>exception comin</find>
-      <find>setText(</find>
-      <find>this email address</find>
-      <find>passwordNew.</find>
-      <find>ChangeEmail(</find>
-      <find>passwordNew</find>
-      <find>result</find>
-      <find>.start</find>
-      <find>instance</find>
-      <find>PropertyHandler</find>
-      <find>propHandler</find>
-      <find>setProperty(&quot;email.email_address</find>
-      <find>attempted to</find>
-      <find>props.get</find>
-      <find>.start()</find>
-      <find>setProperty</find>
-      <find>props</find>
-      <find>System.set</find>
-      <find>System.setProper</find>
-      <find>smtp.</find>
-      <find>emailer.start</find>
-      <find>System</find>
-      <find>mail.smtp.password</find>
+      <find>main</find>
+      <find>printign</find>
+      <find>printing al</find>
+      <find>emailer</find>
+      <find>printAllPro</find>
+      <find>viewAdapter</find>
+      <find>modeltovi</find>
+      <find>adaptor</find>
+      <find>adapter</find>
+      <find>viewFrame</find>
+      <find>modeltoViewAdap</find>
+      <find>duc</find>
+      <find>sender_password</find>
+      <find>sender</find>
+      <find>start(</find>
       <find>password</find>
+      <find>config.properties</find>
+      <find>propHandler</find>
+      <find>this.sendr</find>
+      <find>props</find>
+      <find>senderAddress</find>
+      <find>this.senderAddress</find>
+      <find>transport.connect(</find>
+      <find>connect</find>
+      <find>connect(</find>
+      <find>pom.xml</find>
+      <find>transport.connect</find>
+      <find>setProperty</find>
+      <find>p</find>
+      <find>viewAdaptor</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -226,12 +212,25 @@
         <option value="$PROJECT_DIR$/src/model/IModelToViewAdaptor.java" />
         <option value="$PROJECT_DIR$/src/model/IModelToViewAdapter.java" />
         <option value="$PROJECT_DIR$/src/view/panel/PanelCheckIn.java" />
+        <option value="$PROJECT_DIR$/src/view/dialog/ChangeEmail.java" />
+        <option value="$PROJECT_DIR$/src/view/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/model/database/Database.java" />
+        <option value="$PROJECT_DIR$/src/util/PropertyHandler.java" />
+        <option value="$PROJECT_DIR$/src/model/email/TemplateHandler.java" />
+        <option value="$PROJECT_DIR$/src/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/model/PackageManager.java" />
         <option value="$PROJECT_DIR$/src/model/email/Emailer.java" />
-        <option value="$PROJECT_DIR$/src/view/dialog/ChangeEmail.java" />
-        <option value="$PROJECT_DIR$/src/util/PropertyHandler.java" />
-        <option value="$PROJECT_DIR$/src/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/model/email/Emailer2.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/util/PropertyHandler.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -245,6 +244,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -262,24 +262,27 @@
               <item name="Package Management System" type="b2602c69:ProjectViewProjectNode" />
               <item name="Package Management System" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Package Management System" type="b2602c69:ProjectViewProjectNode" />
               <item name="Package Management System" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579464776685" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579465028940" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -320,13 +323,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Emailer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.email.Emailer" />
+      <module name="Package Management System" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.email.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Controller" />
       <item itemvalue="Application.DBFileIO" />
+      <item itemvalue="Application.Emailer" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Controller" />
+        <item itemvalue="Application.Emailer" />
         <item itemvalue="Application.DBFileIO" />
       </list>
     </recent_temporary>
@@ -345,26 +363,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2637584" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32885906" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Find" order="5" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="CheckStyle" order="11" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -379,17 +398,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/model/IModelToViewAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/IModelToViewAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/javax.mail.jar!/javax/mail/Transport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="142" column="22" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -400,35 +412,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/print/LabelPrinter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/print/LabelPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/print/BarcodeGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/print/BarcodeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
           <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/email/TemplateHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="56" column="15" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/IViewToModelAdaptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/IViewToModelAdaptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/panel/PanelCheckIn.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/panel/PanelCheckIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
@@ -442,17 +447,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/FileIO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/FileIO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-399">
           <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/database/DBMaps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -470,24 +468,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/database/DBFileIO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/database/DBFileIO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="73" column="26" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/database/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="324" column="13" selection-start-line="324" selection-start-column="13" selection-end-line="324" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -502,28 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="456" selection-start-line="456" selection-end-line="456" />
-          <folding>
-            <element signature="e#11799#11800#0" expanded="true" />
-            <element signature="e#11845#11846#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/panel/PanelEditEmailPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="51" column="62" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/PackageManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="78" column="23" lean-forward="true" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
-          <folding>
-            <element signature="e#1929#1930#0" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -545,13 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2346">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -563,21 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1598">
           <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-          <folding>
-            <element signature="e#2511#2512#0" expanded="true" />
-            <element signature="e#2544#2545#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/dialog/ChangeEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="122" column="73" selection-start-line="122" selection-start-column="73" selection-end-line="122" selection-end-column="73" />
-          <folding>
-            <element signature="e#2846#3096#0" expanded="true" />
-            <element signature="e#3095#3096#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,22 +542,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/email/Emailer.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="70" column="43" lean-forward="true" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+        <state relative-caret-position="514">
+          <caret line="1431" column="19" selection-start-line="1431" selection-start-column="19" selection-end-line="1431" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/gson-2.2.4.jar!/com/google/gson/DefaultDateTypeAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="109" column="43" selection-start-line="109" selection-start-column="43" selection-end-line="109" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/database/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="112" column="45" lean-forward="true" selection-start-line="112" selection-start-column="45" selection-end-line="112" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/dialog/ChangeEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="122" column="73" selection-start-line="122" selection-start-column="73" selection-end-line="122" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/panel/PanelEditEmailPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="51" column="62" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Package.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="626" column="29" selection-start-line="626" selection-start-column="29" selection-end-line="626" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javax.mail.jar!/javax/mail/Transport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="98" column="54" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="54" />
           <folding>
-            <element signature="e#7048#7049#0" expanded="true" />
-            <element signature="e#7075#7076#0" expanded="true" />
-            <element signature="e#12176#12185#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/PropertyHandler.java">
+    <entry file="jar://$PROJECT_DIR$/lib/javax.mail.jar!/javax/mail/Session.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="98" column="38" lean-forward="true" selection-start-line="98" selection-start-column="38" selection-end-line="98" selection-end-column="38" />
+        <state relative-caret-position="158">
+          <caret line="206" column="21" selection-start-line="206" selection-start-column="21" selection-end-line="206" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/email/Emailer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="194" column="5" selection-start-line="194" selection-start-column="5" selection-end-line="194" selection-end-column="5" />
+          <folding>
+            <element signature="method#attemptConnection#0;class#Emailer#0" />
+            <element signature="docComment;method#sendAllReminders#0;class#Emailer#0" />
+            <element signature="method#sendPackageNotification#0;class#Emailer#0" />
+            <element signature="method#sendEmail#0;class#Emailer#0" />
+            <element signature="docComment;method#checkReminder#0;class#Emailer#0" />
+            <element signature="method#checkReminder#0;class#Emailer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/email/Emailer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="86" column="48" selection-start-line="86" selection-start-column="48" selection-end-line="86" selection-end-column="48" />
+          <folding>
+            <element signature="method#attemptConnection#0;class#Emailer#0" />
+            <element signature="docComment;method#sendAllReminders#0;class#Emailer#0" />
+            <element signature="method#sendAllReminders#0;class#Emailer#0" />
+            <element signature="method#sendPackageNotification#0;class#Emailer#0" />
+            <element signature="method#sendEmail#0;class#Emailer#0" />
+            <element signature="docComment;method#checkReminder#0;class#Emailer#0" />
+            <element signature="method#checkReminder#0;class#Emailer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/PropertyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
           <folding>
             <element signature="e#1949#1950#0" expanded="true" />
             <element signature="e#1985#1986#0" expanded="true" />
@@ -618,20 +664,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="207" column="38" selection-start-line="207" selection-start-column="38" selection-end-line="207" selection-end-column="38" />
+        <state relative-caret-position="-145">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           <folding>
-            <element signature="e#2919#2920#0" expanded="true" />
-            <element signature="e#2962#2963#0" expanded="true" />
+            <element signature="class#1453:4096" />
+            <element signature="class#4437:5501" />
+            <element signature="docComment;method#init#0;class#Controller#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/PackageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/email/TemplateHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/database/DBMaps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Package Management System</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
           <last-edited>Package Management System</last-edited>
