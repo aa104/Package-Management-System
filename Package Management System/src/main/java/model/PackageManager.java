@@ -4,6 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Map;
+import java.util.logging.Logger;
 
 import model.database.Database;
 import model.email.Emailer;
@@ -26,7 +27,10 @@ public class PackageManager {
 	private Database db;
 	private Emailer mailer;
 	private LabelPrinter printer;
-	
+
+	private static Logger logger = Logger.getLogger(PackageManager.class.getName());
+
+
 	public PackageManager(IModelToViewAdapter adpt) {
 		
 		viewAdapter = adpt;
@@ -38,7 +42,7 @@ public class PackageManager {
 	}
 	
 	public void start() {
-		System.out.println("[Model.start()] Starting model...");
+		logger.info("[Model.start()] Starting model...");
 		// Start the database, mailer, and printer
 		db.start();
 		mailer.start(db.getEntries("checked_in=TRUE", "person_ID=ASCENDING"));
@@ -68,7 +72,6 @@ public class PackageManager {
 	}
 	
 	public boolean checkAdminPassword(String password) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 
@@ -120,7 +123,7 @@ public class PackageManager {
 		// create a packageID
 		Date now = new Date();
 		SimpleDateFormat ft = new SimpleDateFormat("yyyyMMddHHmmss");
-		long pkgID = Long.valueOf(ft.format(now)).longValue();
+		long pkgID = Long.valueOf(ft.format(now));
 		
 		Package pkg = new Package(pkgID, comment, now);
 		db.checkInPackage(personID, pkg);

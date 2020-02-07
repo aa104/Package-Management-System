@@ -1,12 +1,14 @@
 package view;
 
 import java.awt.BorderLayout;
+import java.util.logging.Logger;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JOptionPane;
 import javax.swing.JTabbedPane;
+
 import view.dialog.ChangeEmail;
 import view.panel.PanelCheckIn;
 import view.panel.PanelPickUp;
@@ -26,6 +28,7 @@ public class MainFrame extends JFrame {
 	
 	private JPanel contentPane;
 	private MainFrame frame;
+	private static Logger logger = Logger.getLogger(MainFrame.class.getName());
 	/**
 	 * Create the frame.
 	 */
@@ -107,7 +110,7 @@ public class MainFrame extends JFrame {
 	 * Start the frame
 	 */
 	public void start() {
-		System.out.println("[View.start()] Starting View...");
+		logger.info("[View.start()] Starting View...");
 		setVisible(true);
 	}
 	

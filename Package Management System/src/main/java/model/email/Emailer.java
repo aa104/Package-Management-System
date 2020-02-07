@@ -69,18 +69,21 @@ public class Emailer {
 	
 	public void start(ArrayList<Pair<Person, Package>> activeEntriesSortedByPerson) {
 
-//		this.senderAddress = propHandler.getProperty("email.email_address");
-//		this.senderPassword = propHandler.getProperty("email.password");
-//		this.senderAlias = propHandler.getProperty("email.alias");
-//		this.senderAddress = ;
-//		this.senderPassword = ;
-//		this.senderAlias = ;
-		this.senderAddress = "duncancollegemailroom@gmail.com";
-		this.senderPassword = "#somosequipo2009#";
-		this.senderAlias = "Duncan Mail Room";
+		propHandler.setProperty("email.email_address", "duncancollegemailroom@gmail.com");
+		propHandler.setProperty("email.password", "#somosequipo2009#");
+		propHandler.setProperty("email.alias", "Duncan Mail Room");
+
+		this.senderAddress = propHandler.getProperty("email.email_address");
+		this.senderPassword = propHandler.getProperty("email.password");
+		this.senderAlias = propHandler.getProperty("email.alias");
+
+//		this.senderAddress = "duncancollegemailroom@gmail.com";
+//		this.senderPassword = "#somosequipo2009#";
+//		this.senderAlias = "Duncan Mail Room";
 
 
-		System.out.printf("[Emailer.start()] ADDRESS: %s, PASSWORD: %s, ALIAS: %s.%n",senderAddress, senderPassword, senderAlias );
+		System.out.printf("[Emailer.start()] ADDRESS: %s, PASSWORD: %s, ALIAS: %s.%n",
+				senderAddress, senderPassword, senderAlias );
 
 
 		// TODO: What do you mena by loaded? Doesn't allow proper start up.
@@ -144,7 +147,7 @@ public class Emailer {
 					if (!changeEmail()) {
 						retry = false;
 						viewAdaptor.displayMessage("Emails will not be sent until a connection is established.",
-								"");
+								"Notification");
 					}
 					
 					
@@ -156,7 +159,7 @@ public class Emailer {
 						"Failed Connection",options);
 				if(!retry) {
 					viewAdaptor.displayMessage("Emails will not be sent until a connection is established.",
-							"");
+							"Notification");
 				}
 			}
 		}
@@ -322,10 +325,8 @@ public class Emailer {
 			// Initialize last reminder calendar
 			Calendar lastReminder = new GregorianCalendar();
 			lastReminder.setTimeInMillis(Long.valueOf(propHandler.getProperty("email.last_reminder")));
-			
-			if (now.get(Calendar.DAY_OF_YEAR) != lastReminder.get(Calendar.DAY_OF_YEAR)) {
-				return true;
-			}
+
+			return now.get(Calendar.DAY_OF_YEAR) != lastReminder.get(Calendar.DAY_OF_YEAR);
 		}
 		
 		return false;
@@ -424,23 +425,5 @@ public class Emailer {
 //		testSend();
 	}
 
-//	/**
-//	 * Sends a simple email to specified person.
-//	 */
-//	private static void testSend() {
-//		Emailer emailer = new Emailer(Controller.global_model2ViewAdapter);
-//		emailer.senderAddress = "duncancollegemailroom@gmail.com";
-//		emailer.senderPassword = "#somosequipo2009#";
-//		emailer.senderAlias = "Duncan Mail Room";
-//
-//		Person Ayo = new Person("Akin", "Ayo","aa104@rice.edu", "aa104" );
-//
-//		Date now = new Date();
-//		Package p1 = new Package(123+now.getTime(),"Come and pick up your package now.",now);
-//
-//		ArrayList<Pair<Person,Package>> entries = new ArrayList<Pair<Person,Package>>();
-//		emailer.sendPackageNotification(Ayo,p1);
-//		emailer.sendAllReminders(entries);
-//	}
 
 }

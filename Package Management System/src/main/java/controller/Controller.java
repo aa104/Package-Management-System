@@ -3,7 +3,6 @@ package controller;
 import java.awt.EventQueue;
 import java.util.ArrayList;
 import java.util.Map;
-import java.util.Scanner;
 import java.util.logging.Logger;
 
 import model.IModelToViewAdapter;
@@ -29,27 +28,22 @@ public class Controller{
 	private LogHandler logHandler;
 	private PropertyHandler propHandler;
 	
-	private static Logger logger;
+	private static Logger logger = Logger.getLogger(Controller.class.getName());
 	private String progDirName;
 
-	public static IModelToViewAdapter global_model2ViewAdapter;
-	
 	/**
 	 * Function which initializes and starts the controller
 	 */
 	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					System.out.println("Starting Controller in main ...");
-					Controller control = new Controller();
-					System.out.println("Finished constructing object ...");
-					control.start();
-					System.out.println("Started Controller in main ...");
+		EventQueue.invokeLater(() -> {
+			try {
+				Controller control = new Controller();
+				control.start();
+				logger.info("Control started...");
 
-				} catch (Exception e) {
-					logger.severe(e.getMessage());
-				}
+			} catch (Exception e) {
+				logger.info("Control NOT started...");
+				logger.severe(e.getMessage());
 			}
 		});
 	}
@@ -57,17 +51,11 @@ public class Controller{
 	/**
 	 * Class which acts as the go between for the model and the view
 	 */
-	public Controller() {
-		System.out.println("In constructor...");
+	private Controller() {
 
 		this.propHandler = PropertyHandler.getInstance();
 		this.logHandler = new LogHandler();
 		init();
-
-		System.out.println("Past init()...");
-
-		
-		Controller.logger = Logger.getLogger(Controller.class.getName());
 		
 		/* Initializes the view */
 		viewFrame = new MainFrame(new IViewToModelAdaptor() {
@@ -169,7 +157,7 @@ public class Controller{
 		});
 		
 		/* Initialize model */
-		global_model2ViewAdapter = new IModelToViewAdapter() {
+		modelPM = new PackageManager(new IModelToViewAdapter() {
 			public void displayMessage(String message, String title) {
 				viewFrame.displayMessage(message, title);
 
@@ -198,45 +186,33 @@ public class Controller{
 			public boolean getBooleanInput(String message, String title,
 										   String[] options) {
 				int response = viewFrame.getButtonInput(message,title,options);
-				if(response == 0) { return true;}
-				return false;
+				return response == 0;
 			}
 
 			public String getPrinterNames(String[] printerNames) {
 				return viewFrame.getPrinterName(printerNames);
 			}
-		};
-
-
-		modelPM = new PackageManager(global_model2ViewAdapter);
+		});
 	}
 	
 	/**
 	 * Function initializes helper classes
 	 */
 	public void init() {
-		System.out.println("In init()...");
 		// set and create root directory, if it doesn't exist
 		String home = System.getProperty("user.home");
-
 		this.progDirName = home + "/Documents/Package Management System";
-		System.out.println(progDirName);
+
+
 		FileIO.init(progDirName);
 		FileIO.makeDirs(progDirName);
 
-		System.out.println("Printing all props()");
-
-//		propHandler.printAllProperties();
-
 		propHandler.init(progDirName);
-//		propHandler.printAllProperties();
 		logHandler.init(progDirName);
-		
 		logHandler.cleanLogs();
 	}
-	
+
 	private void start() {
-		System.out.println("[Controller.start()] Starting controller...");
 		// Start view and model
 		viewFrame.start();
 		modelPM.start();
