@@ -1,0 +1,12 @@
+Feb 07, 2020 6:07:40 PM view.MainFrame start
+INFO: [View.start()] Starting View...
+Feb 07, 2020 6:07:40 PM model.PackageManager start
+INFO: [Model.start()] Starting model...
+Feb 07, 2020 6:07:53 PM model.email.Emailer sendAllReminders
+INFO: Successfully sent reminder emails.
+Feb 07, 2020 6:08:08 PM controller.Controller lambda$main$0
+INFO: Control started...
+Feb 07, 2020 6:11:20 PM model.database.Database importPersonsFromCSV
+WARNING: Invalid csv file format for file: C:\Users\Ayo\Desktop\Rice\Personal Projects\Package-Management-System\Package Management System\StudentDB.csv
+Feb 07, 2020 6:18:31 PM model.database.DBFileIO readDatabaseCSVFile
+INFO: C:\Users\Ayo\Desktop\Rice\Personal Projects\Package-Management-System\Package Management System\StudentDB1.csv was successfully read

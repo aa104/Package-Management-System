@@ -139,7 +139,7 @@ public class PanelEditPackages extends JPanel {
 			private static final long serialVersionUID = 6852954056260852138L;
 			@Override
 		    public boolean isCellEditable(int row, int column) {
-		       return false;
+		       return true;
 		    }
 		};
 		tableActivePackages.setModel(tableModel);

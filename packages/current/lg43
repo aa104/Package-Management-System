@@ -1,0 +1,22 @@
+ö{
+  "first": {
+    "lastName": "Goon",
+    "firstName": "Laura",
+    "emailAddress": "lg43@rice.edu",
+    "personID": "lg43"
+  },
+  "second": [
+    {
+      "packageID": 20200207192002,
+      "comment": "Hello, This is from Ayo",
+      "checkInDate": "Feb 7, 2020 7:20:02 PM",
+      "notificationSent": true
+    },
+    {
+      "packageID": 20200207192506,
+      "comment": "Did the name tag get fixed get fixed?",
+      "checkInDate": "Feb 7, 2020 7:25:06 PM",
+      "notificationSent": true
+    }
+  ]
+}

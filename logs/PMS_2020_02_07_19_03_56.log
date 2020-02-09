@@ -1,0 +1,28 @@
+Feb 07, 2020 7:03:57 PM view.MainFrame start
+INFO: [View.start()] Starting View...
+Feb 07, 2020 7:03:57 PM model.PackageManager start
+INFO: [Model.start()] Starting model...
+Feb 07, 2020 7:04:06 PM controller.Controller lambda$main$0
+INFO: Control started...
+Feb 07, 2020 7:09:35 PM view.component.PersonComboBox getSelectedPerson
+INFO: Selected index is: 1
+Feb 07, 2020 7:09:35 PM view.component.PersonComboBox getSelectedPerson
+INFO: currentPerson size: 0
+Feb 07, 2020 7:09:48 PM view.component.PersonComboBox getSelectedPerson
+INFO: Selected index is: 0
+Feb 07, 2020 7:09:48 PM view.component.PersonComboBox getSelectedPerson
+INFO: currentPerson size: 1
+Feb 07, 2020 7:13:12 PM view.component.PersonComboBox getSelectedPerson
+INFO: Selected index is: 0
+Feb 07, 2020 7:13:12 PM view.component.PersonComboBox getSelectedPerson
+INFO: currentPerson size: 1
+Feb 07, 2020 7:19:24 PM model.database.DBFileIO readDatabaseCSVFile
+INFO: C:\Users\Ayo\Desktop\Rice\Personal Projects\Package-Management-System\Package Management System\StudentDB1.csv was successfully read
+Feb 07, 2020 7:20:02 PM view.component.PersonComboBox getSelectedPerson
+INFO: Selected index is: 0
+Feb 07, 2020 7:20:02 PM view.component.PersonComboBox getSelectedPerson
+INFO: currentPerson size: 1
+Feb 07, 2020 7:22:59 PM view.component.PersonComboBox getSelectedPerson
+INFO: Selected index is: 0
+Feb 07, 2020 7:22:59 PM view.component.PersonComboBox getSelectedPerson
+INFO: currentPerson size: 1

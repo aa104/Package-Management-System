@@ -326,7 +326,9 @@ public class Emailer {
 			Calendar lastReminder = new GregorianCalendar();
 			lastReminder.setTimeInMillis(Long.valueOf(propHandler.getProperty("email.last_reminder")));
 
-			return now.get(Calendar.DAY_OF_YEAR) != lastReminder.get(Calendar.DAY_OF_YEAR);
+			if (now.get(Calendar.DAY_OF_YEAR) != lastReminder.get(Calendar.DAY_OF_YEAR)) {
+				return true;
+			}
 		}
 		
 		return false;

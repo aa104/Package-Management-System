@@ -24,10 +24,10 @@ public class Controller{
 	
 	private MainFrame viewFrame;
 	private PackageManager modelPM;
-	
+
 	private LogHandler logHandler;
 	private PropertyHandler propHandler;
-	
+
 	private static Logger logger = Logger.getLogger(Controller.class.getName());
 	private String progDirName;
 
@@ -200,8 +200,9 @@ public class Controller{
 	 */
 	public void init() {
 		// set and create root directory, if it doesn't exist
-		String home = System.getProperty("user.home");
-		this.progDirName = home + "/Documents/Package Management System";
+//		String home = System.getProperty("user.home");
+		this.progDirName = "C:\\Users\\Ayo\\Desktop\\Rice\\Personal Projects\\" +
+				"Package-Management-System";
 
 
 		FileIO.init(progDirName);

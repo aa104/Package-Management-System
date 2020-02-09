@@ -3,6 +3,7 @@ package view.component;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
+import java.util.logging.Logger;
 import javax.swing.JComboBox;
 import javax.swing.text.JTextComponent;
 
@@ -17,7 +18,10 @@ public class PersonComboBox extends JComboBox<String>{
 	private ArrayList<Person> personList;
 	private ArrayList<Person> currentPersons;
 	private final JTextComponent inputTextBox = (JTextComponent) getEditor().getEditorComponent();
-	
+
+
+	private static Logger logger = Logger.getLogger(PersonComboBox.class.getName());
+
 	public PersonComboBox() {
 		
 		personList = new ArrayList<Person>();
@@ -52,6 +56,8 @@ public class PersonComboBox extends JComboBox<String>{
 		if(selectedIndex == -1) {
 			return null;
 		}
+		logger.info("Selected index is: " + getSelectedIndex());
+		logger.info("currentPerson size: " + currentPersons.size());
 		return currentPersons.get(getSelectedIndex());
 	}
 	

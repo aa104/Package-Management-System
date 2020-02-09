@@ -1,0 +1,22 @@
+ï{
+  "first": {
+    "lastName": "Akinmade",
+    "firstName": "Ayo",
+    "emailAddress": "aa104@rice.edu",
+    "personID": "aa104"
+  },
+  "second": [
+    {
+      "packageID": 20200207191312,
+      "comment": "Please pick up your package now",
+      "checkInDate": "Feb 7, 2020 7:13:12 PM",
+      "notificationSent": true
+    },
+    {
+      "packageID": 20200207192259,
+      "comment": "Testing new format",
+      "checkInDate": "Feb 7, 2020 7:22:59 PM",
+      "notificationSent": true
+    }
+  ]
+}

@@ -78,7 +78,11 @@ public class PanelCheckIn extends JPanel {
 		JButton btnConfirmCheckIn = new JButton("Confirm");
 		btnConfirmCheckIn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				checkInSelection();
+				new Thread(() -> {
+					// Run confirmation on a new thread.
+					checkInSelection();
+
+				}).start();
 			}
 		});
 		add(btnConfirmCheckIn, "3, 8, center, default");

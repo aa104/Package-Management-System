@@ -24,7 +24,7 @@ public class PropertyHandler {
 	
 	private Properties props;
 	private String propsFilePath;
-	private Logger logger;
+	private Logger logger =  Logger.getLogger(PropertyHandler.class.getName());
 	
 	private PropertyHandler() {
 		// prevents multiple instantiation of singleton class
@@ -32,8 +32,8 @@ public class PropertyHandler {
 	
 	public void init(String programDirectory) {
 		// setup file directories
-		String propsDirName = programDirectory + '/' + "props";
-		this.propsFilePath = propsDirName + '/' + "config.properties";
+		String propsDirName = programDirectory + '\\' + "props";
+		this.propsFilePath = propsDirName + '\\' + "config.properties";
 		this.props = new Properties();
 		
 		File propsDir = new File(propsDirName);

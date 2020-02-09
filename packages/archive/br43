@@ -1,0 +1,16 @@
+-{
+  "first": {
+    "lastName": "Bilal",
+    "firstName": "Rehman",
+    "emailAddress": "br43@rice.edu",
+    "personID": "br43"
+  },
+  "second": [
+    {
+      "packageID": 20200207190948,
+      "comment": "assa",
+      "checkInDate": "Feb 7, 2020 7:09:48 PM",
+      "notificationSent": true
+    }
+  ]
+}

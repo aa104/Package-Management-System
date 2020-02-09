@@ -1,0 +1,10 @@
+Feb 07, 2020 7:24:34 PM view.MainFrame start
+INFO: [View.start()] Starting View...
+Feb 07, 2020 7:24:34 PM model.PackageManager start
+INFO: [Model.start()] Starting model...
+Feb 07, 2020 7:24:37 PM controller.Controller lambda$main$0
+INFO: Control started...
+Feb 07, 2020 7:25:06 PM view.component.PersonComboBox getSelectedPerson
+INFO: Selected index is: 0
+Feb 07, 2020 7:25:06 PM view.component.PersonComboBox getSelectedPerson
+INFO: currentPerson size: 1

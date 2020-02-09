@@ -1,17 +1,19 @@
 Package-Management-System
 =========================
 Author: Navin Pathak
+Update: Ayo Akinmade
 
-Package management utility for the Jones College Mail Room.
+
+Package management utility for the Duncan College Mail Room.
 
 Installation instructions
 -------------------------
 
-1. [Install Java SE 7+](https://www.java.com/en/download/)
+1. [Install Java SE 8+](https://www.java.com/en/download/)
 2. Download the Package Management System.jar file
 3. Open the Package Management System
 4. Setup email with a [Gmail](mail.google.com) account.
-    - Name - the name that will be sending all of the emails. Example - Jones College Mail Room, Mail Room, etc.
+    - Name - the name that will be sending all of the emails. Example - Duncan College Mail Room, Mail Room, etc.
     - Email - your Gmail email address
     - Password - your Gmail password
 5. Select a printer from the dropdown menu. Make sure that the drivers are installed.
