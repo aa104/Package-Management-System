@@ -1,4 +1,4 @@
-ï{
+»{
   "first": {
     "lastName": "Akinmade",
     "firstName": "Ayo",
@@ -16,6 +16,13 @@
       "packageID": 20200207192259,
       "comment": "Testing new format",
       "checkInDate": "Feb 7, 2020 7:22:59 PM",
+      "notificationSent": true
+    },
+    {
+      "packageID": 20200210122742,
+      "comment": "hello",
+      "checkInDate": "Feb 10, 2020 12:27:42 PM",
+      "checkOutDate": "Feb 10, 2020 12:34:14 PM",
       "notificationSent": true
     }
   ]

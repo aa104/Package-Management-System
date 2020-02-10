@@ -78,11 +78,7 @@ public class PanelCheckIn extends JPanel {
 		JButton btnConfirmCheckIn = new JButton("Confirm");
 		btnConfirmCheckIn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				new Thread(() -> {
-					// Run confirmation on a new thread.
-					checkInSelection();
-
-				}).start();
+				checkInSelection();
 			}
 		});
 		add(btnConfirmCheckIn, "3, 8, center, default");
@@ -137,12 +133,26 @@ public class PanelCheckIn extends JPanel {
 			}
 
 
-			// send a package notification
-			if (!modelAdaptor.sendPackageNotification(owner.getPersonID(), pkgID)) {
-				JOptionPane.showMessageDialog(frame, "Failed to send package notification.\n"
-						+ "Please resend notification from the packages tab of the admin panel.", 
-						"Failed Notification", JOptionPane.WARNING_MESSAGE);
-			}
+			// send a package notification on a new thread.
+			// Don't delay the main thread because success message needs to be sent
+			new Thread(() -> {
+				try {
+					// Set minutes to sleep for
+					int minutesToSleep = 10;
+					Thread.sleep(minutesToSleep * 60 * 1000);
+					// Send notification.
+					if (!modelAdaptor.sendPackageNotification(owner.getPersonID(), pkgID)) {
+						JOptionPane.showMessageDialog(frame, "Failed to send package notification.\n"
+										+ "Please resend notification from the packages tab of the admin panel.",
+								"Failed Notification", JOptionPane.WARNING_MESSAGE);
+					}
+				} catch (InterruptedException ie) {
+					System.out.println("Email thread failed to send email.");
+					Thread.currentThread().interrupt();
+				}
+			}).start();
+
+
 			
 			// notify success
 			JOptionPane.showMessageDialog(frame, "Package for " + owner.getFullName() + " successfully checked in!", 

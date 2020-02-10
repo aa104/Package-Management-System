@@ -1,0 +1,12 @@
+Feb 10, 2020 12:26:26 PM view.MainFrame start
+INFO: [View.start()] Starting View...
+Feb 10, 2020 12:26:26 PM model.PackageManager start
+INFO: [Model.start()] Starting model...
+Feb 10, 2020 12:26:45 PM model.email.Emailer sendAllReminders
+INFO: Successfully sent reminder emails.
+Feb 10, 2020 12:26:45 PM controller.Controller lambda$main$0
+INFO: Control started...
+Feb 10, 2020 12:27:42 PM view.component.PersonComboBox getSelectedPerson
+INFO: Selected index is: 0
+Feb 10, 2020 12:27:42 PM view.component.PersonComboBox getSelectedPerson
+INFO: currentPerson size: 4

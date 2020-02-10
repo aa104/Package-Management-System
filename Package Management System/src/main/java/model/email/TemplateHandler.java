@@ -145,7 +145,7 @@ public class TemplateHandler {
 				resolved = rawTemplates.get(header);
 				
 				while(matcher.find()) {
-					System.out.format("found: %s\n", matcher.group(1));
+//					System.out.format("found: %s\n", matcher.group(1));
 					resolved = resolved.replace("$"+matcher.group(1), variables.get(matcher.group(1)));
 				}
 				

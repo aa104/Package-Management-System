@@ -55,7 +55,7 @@ public class Emailer {
 	public Emailer(IModelToViewAdapter viewAdaptor) {
 		// get PropertyHandler and logger instance
 		this.propHandler = PropertyHandler.getInstance();
-		System.out.println(propHandler);
+//		System.out.println(propHandler);
 		this.logger = Logger.getLogger(Emailer.class.getName());
 		
 		this.viewAdaptor = viewAdaptor;
@@ -82,8 +82,8 @@ public class Emailer {
 //		this.senderAlias = "Duncan Mail Room";
 
 
-		System.out.printf("[Emailer.start()] ADDRESS: %s, PASSWORD: %s, ALIAS: %s.%n",
-				senderAddress, senderPassword, senderAlias );
+//		System.out.printf("[Emailer.start()] ADDRESS: %s, PASSWORD: %s, ALIAS: %s.%n",
+//				senderAddress, senderPassword, senderAlias );
 
 
 		// TODO: What do you mena by loaded? Doesn't allow proper start up.
@@ -113,7 +113,7 @@ public class Emailer {
 	 */
 	public void setEmailProperties(String newAlias, String newAddress, String newPassword) {
 
-		System.out.printf("[Emailer.setEmailProperties()] ADDRESS: %s , PASSWORD: %s , ALIAS: %s.", newAddress, newPassword, newAlias);
+//		System.out.printf("[Emailer.setEmailProperties()] ADDRESS: %s , PASSWORD: %s , ALIAS: %s.", newAddress, newPassword, newAlias);
 		propHandler.setProperty("email.email_address",newAddress);
 		propHandler.setProperty("email.password",newPassword);
 		propHandler.setProperty("email.alias",newAlias);
@@ -255,10 +255,10 @@ public class Emailer {
 		Properties props = System.getProperties();
 
 		// TODO: Exception coming from here. Apparently password and sender address are done incorrectly
-		System.out.println("[Emailer.connect()] BEFORE transport.connect()");
-		System.out.println("[Emailer.connect()] HOST: " + host);
-		System.out.println("[Emailer.connect()] SENDER_ADDRESS: " + senderAddress);
-		System.out.println("[Emailer.connect()] SENDER_PASSWORD:" + senderPassword);
+//		System.out.println("[Emailer.connect()] BEFORE transport.connect()");
+//		System.out.println("[Emailer.connect()] HOST: " + host);
+//		System.out.println("[Emailer.connect()] SENDER_ADDRESS: " + senderAddress);
+//		System.out.println("[Emailer.connect()] SENDER_PASSWORD:" + senderPassword);
 
         props.put("mail.smtp.starttls.enable", "true");
         props.put("mail.smtp.host", host);
@@ -375,7 +375,7 @@ public class Emailer {
 	 * @return								True if the user input email information
 	 */
 	private boolean changeEmail() {
-		System.out.println("[Emailer.changeEmail()] Attempted to change email");
+//		System.out.println("[Emailer.changeEmail()] Attempted to change email");
 		String[] newEmail = viewAdaptor.changeEmail(senderAddress,senderPassword,senderAlias);
 		if(newEmail != null) {
 			setEmailProperties(newEmail[0],newEmail[1],newEmail[2]);
