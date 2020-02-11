@@ -93,7 +93,7 @@ public class Emailer {
 			viewAdaptor.displayMessage("Email information was not loaded from file.\n"
 					+ "Please change email information in the next window.", 
 					"Email Not Loaded");
-			System.out.println("[Emailer.start()]  A FIELD IS NULL. REQUESTING EMAIL CHANGE ");
+//			System.out.println("[Emailer.start()]  A FIELD IS NULL. REQUESTING EMAIL CHANGE ");
 			changeEmail();
 		}
 		

@@ -1,4 +1,4 @@
-»{
+h{
   "first": {
     "lastName": "Akinmade",
     "firstName": "Ayo",
@@ -23,6 +23,12 @@
       "comment": "hello",
       "checkInDate": "Feb 10, 2020 12:27:42 PM",
       "checkOutDate": "Feb 10, 2020 12:34:14 PM",
+      "notificationSent": true
+    },
+    {
+      "packageID": 20200210125723,
+      "comment": "Test delay: Sent @ 12:57",
+      "checkInDate": "Feb 10, 2020 12:57:23 PM",
       "notificationSent": true
     }
   ]

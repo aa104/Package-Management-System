@@ -64,20 +64,4 @@
         </dependency>
 
     </dependencies>
-
-    <plugin>
-        <groupId>org.eclipse.jetty</groupId>
-        <artifactId>jetty-maven-plugin</artifactId>
-        <version>9.2.11.v20150529</version>
-        <configuration>
-            <scanIntervalSeconds>10</scanIntervalSeconds>
-            <webApp>
-                <contextPath>/spring2</contextPath>
-            </webApp>
-        </configuration>
-    </plugin>
-
-
-
-
 </project>

@@ -138,7 +138,8 @@ public class PanelCheckIn extends JPanel {
 			new Thread(() -> {
 				try {
 					// Set minutes to sleep for
-					int minutesToSleep = 10;
+					int minutesToSleep = 45;
+					System.out.println("Thread sleeping...");
 					Thread.sleep(minutesToSleep * 60 * 1000);
 					// Send notification.
 					if (!modelAdaptor.sendPackageNotification(owner.getPersonID(), pkgID)) {

@@ -56,8 +56,6 @@ public class PackageManager {
 	 */
 	public boolean sendPackageNotification(String personID, long pkgID) {
 
-
-		System.out.println("");
 		Person person = db.getPerson(personID);
 		Package pkg = db.getPackage(pkgID);
 		if(mailer.sendPackageNotification(person, pkg)) {
