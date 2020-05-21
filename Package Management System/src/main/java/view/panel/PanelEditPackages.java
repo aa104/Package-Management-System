@@ -1,4 +1,4 @@
-package view.panel;
+package main.java.view.panel;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -22,11 +22,11 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableRowSorter;
 
-import util.Pair;
-import util.Person;
-import util.Package;
-import view.IViewToModelAdaptor;
-import view.MainFrame;
+import main.java.util.Pair;
+import main.java.util.Person;
+import main.java.util.Package;
+import main.java.view.IViewToModelAdaptor;
+import main.java.view.MainFrame;
 
 import com.jgoodies.forms.factories.FormFactory;
 import com.jgoodies.forms.layout.ColumnSpec;

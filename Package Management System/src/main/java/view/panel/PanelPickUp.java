@@ -1,4 +1,4 @@
-package view.panel;
+package main.java.view.panel;
 
 import java.awt.Font;
 
@@ -10,10 +10,10 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
-import util.Person;
-import util.Package;
-import view.IViewToModelAdaptor;
-import view.dialog.ConfirmPickUp;
+import main.java.util.Person;
+import main.java.util.Package;
+import main.java.view.IViewToModelAdaptor;
+import main.java.view.dialog.ConfirmPickUp;
 
 import com.jgoodies.forms.factories.FormFactory;
 import com.jgoodies.forms.layout.ColumnSpec;

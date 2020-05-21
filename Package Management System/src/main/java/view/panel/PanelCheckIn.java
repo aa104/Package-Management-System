@@ -1,4 +1,4 @@
-package view.panel;
+package main.java.view.panel;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -15,9 +15,9 @@ import com.jgoodies.forms.layout.ColumnSpec;
 import com.jgoodies.forms.layout.FormLayout;
 import com.jgoodies.forms.layout.RowSpec;
 
-import util.Person;
-import view.IViewToModelAdaptor;
-import view.component.PersonComboBox;
+import main.java.util.Person;
+import main.java.view.IViewToModelAdaptor;
+import main.java.view.component.PersonComboBox;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -124,11 +124,11 @@ public class PanelCheckIn extends JPanel {
 		} else {
 			// check into database
 			long pkgID = modelAdaptor.checkInPackage(owner.getPersonID(), textFieldComment.getText());
-			
+
 			// print a label
 			if (!modelAdaptor.printLabel(pkgID)) {
 				JOptionPane.showMessageDialog(frame, "Failed to print the package label.\n"
-						+ "Please reprint the label from the packages tab of the admin panel.", 
+						+ "Please reprint the label from the packages tab of the admin panel.",
 						"Failed Print", JOptionPane.WARNING_MESSAGE);
 			}
 
@@ -137,8 +137,10 @@ public class PanelCheckIn extends JPanel {
 			// Don't delay the main thread because success message needs to be sent
 			new Thread(() -> {
 				try {
-					// Set minutes to sleep for
-					int minutesToSleep = 45;
+					// Set minutes to sleep for 30 minutes
+					// TODO: Make a panel that allows modification
+					// of this  value.
+					int minutesToSleep = 30;
 					System.out.println("Thread sleeping...");
 					Thread.sleep(minutesToSleep * 60 * 1000);
 					// Send notification.
@@ -154,12 +156,12 @@ public class PanelCheckIn extends JPanel {
 			}).start();
 
 
-			
+
 			// notify success
-			JOptionPane.showMessageDialog(frame, "Package for " + owner.getFullName() + " successfully checked in!", 
+			JOptionPane.showMessageDialog(frame, "Package for " + owner.getFullName() + " successfully checked in!",
 					"Success", JOptionPane.INFORMATION_MESSAGE);
 		}
-		
+
 		// reset fields
 		textFieldComment.setText("");
 		comboBoxStudentName.getEditor().setItem("");

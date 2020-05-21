@@ -1,13 +1,13 @@
-package model.database;
+package main.java.model.database;
 
 import java.util.Date;
 import java.util.HashMap;
 import java.util.ArrayList;
 import java.util.logging.Logger;
 
-import util.Package;
-import util.Pair;
-import util.Person;
+import main.java.util.Package;
+import main.java.util.Pair;
+import main.java.util.Person;
 
 /*
  * Class containing a map that handles the storage of the person and package relationships 

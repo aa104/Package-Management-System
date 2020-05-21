@@ -1,8 +1,8 @@
-package view.panel;
+package main.java.view.panel;
 
 import javax.swing.JTabbedPane;
-import view.IViewToModelAdaptor;
-import view.MainFrame;
+import main.java.view.IViewToModelAdaptor;
+import main.java.view.MainFrame;
 import javax.swing.event.ChangeListener;
 import javax.swing.event.ChangeEvent;
 

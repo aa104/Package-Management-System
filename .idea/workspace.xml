@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9df692c-848c-49c5-9d82-be09121129e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Package Management System/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Package_Management_System_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Package-Management-System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Package-Management-System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package Management System/.idea/artifacts/Package_Management_System_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Package Management System/.idea/artifacts/Package_Management_System_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Package Management System/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Package Management System/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Package Management System/bin/controller/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Package Management System/bin/controller/Controller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Package Management System/bin/controller/Controller$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Package Management System/bin/controller/Controller$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Package Management System/bin/controller/Controller$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Package Management System/bin/controller/Controller$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Package Management System/bin/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/Package Management System/bin/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Package Management System/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Package Management System/src/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package Management System/classes/artifacts/Package_Management_System_jar/Package Management System.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Package Management System/classes/artifacts/Package_Management_System_jar/Package Management System.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package Management System/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/Package Management System/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package Management System/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +19,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Package Management System/src/main/java/controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/Package Management System/src/main/java/controller/Controller.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
     <option name="x" value="690" />
     <option name="width" value="720" />
     <option name="height" value="1010" />
@@ -33,7 +49,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -46,24 +61,12 @@
               <item name="Package-Management-System" type="462c0819:PsiDirectoryNode" />
               <item name="Package Management System" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Package-Management-System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Package-Management-System" type="462c0819:PsiDirectoryNode" />
-              <item name="Package Management System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Package-Management-System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Package-Management-System" type="462c0819:PsiDirectoryNode" />
-              <item name="Package Management System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -100,16 +103,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="552" y="0" width="576" height="808" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.751938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="CheckStyle" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -121,6 +123,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="CheckStyle" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -139,12 +142,16 @@
     <entry file="file://$PROJECT_DIR$/../../Miscellaneous/hw_1_written/hw_1_written-1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Package Management System/src/controller/Controller.java">
+    <entry file="file://$PROJECT_DIR$/Package Management System/src/controller/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="134" column="18" selection-start-line="134" selection-start-column="18" selection-end-line="134" selection-end-column="18" />
+        <state relative-caret-position="29">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Package Management System/src/main/java/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -152,6 +159,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Package-Management-System:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

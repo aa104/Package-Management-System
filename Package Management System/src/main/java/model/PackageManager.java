@@ -1,4 +1,4 @@
-package model;
+package main.java.model;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -6,13 +6,13 @@ import java.util.Date;
 import java.util.Map;
 import java.util.logging.Logger;
 
-import model.database.Database;
-import model.email.Emailer;
-import model.email.TemplateHandler;
-import model.print.LabelPrinter;
-import util.Package;
-import util.Pair;
-import util.Person;
+import main.java.model.database.Database;
+import main.java.model.email.Emailer;
+import main.java.model.email.TemplateHandler;
+import main.java.model.print.LabelPrinter;
+import main.java.util.Package;
+import main.java.util.Pair;
+import main.java.util.Person;
 
 /**
  * Package Manager class functions as a large model to string together the

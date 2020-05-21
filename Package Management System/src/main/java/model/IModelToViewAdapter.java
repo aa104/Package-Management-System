@@ -1,4 +1,4 @@
-package model;
+package main.java.model;
 
 /*
  * Interface outlining the operations that can be performed by the model (model.database)

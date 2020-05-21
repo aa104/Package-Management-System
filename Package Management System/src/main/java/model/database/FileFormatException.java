@@ -1,4 +1,4 @@
-package model.database;
+package main.java.model.database;
 
 public class FileFormatException extends Exception {
 

@@ -1,4 +1,4 @@
-package view.component;
+package main.java.view.component;
 
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 import javax.swing.JComboBox;
 import javax.swing.text.JTextComponent;
 
-import util.Person;
+import main.java.util.Person;
 
 public class PersonComboBox extends JComboBox<String>{
 	

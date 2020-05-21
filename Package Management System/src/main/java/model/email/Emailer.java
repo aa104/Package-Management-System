@@ -1,4 +1,4 @@
-package model.email;
+package main.java.model.email;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
@@ -20,13 +20,13 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
-import controller.Controller;
-import model.IModelToViewAdapter;
-import util.FileIO;
-import util.Package;
-import util.Pair;
-import util.Person;
-import util.PropertyHandler;
+import main.java.controller.Controller;
+import main.java.model.IModelToViewAdapter;
+import main.java.util.FileIO;
+import main.java.util.Package;
+import main.java.util.Pair;
+import main.java.util.Person;
+import main.java.util.PropertyHandler;
 
 /*
  * Class that handles sending notification and reminder emails to students through

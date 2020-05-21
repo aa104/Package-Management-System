@@ -1,10 +1,10 @@
-package model.database;
+package main.java.model.database;
 
-import util.FileIO;
-import util.Package;
-import util.Person;
-import util.Pair;
-import util.PropertyHandler;
+import main.java.util.FileIO;
+import main.java.util.Package;
+import main.java.util.Person;
+import main.java.util.Pair;
+import main.java.util.PropertyHandler;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -13,7 +13,7 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.logging.Logger;
 
-import model.IModelToViewAdapter;
+import main.java.model.IModelToViewAdapter;
 
 /*
  * Class that handles operations to and from the data files and DBMaps

@@ -1,4 +1,4 @@
-package view.dialog;
+package main.java.view.dialog;
 
 import java.awt.BorderLayout;
 import java.awt.Desktop;
@@ -48,7 +48,7 @@ import java.nio.file.Paths;
 import javax.swing.JTextArea;
 import javax.swing.SwingConstants;
 
-import util.FileIO;
+import main.java.util.FileIO;
 
 import javax.swing.event.HyperlinkListener;
 import javax.swing.event.HyperlinkEvent;

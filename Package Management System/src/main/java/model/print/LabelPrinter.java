@@ -1,4 +1,4 @@
-package model.print;
+package main.java.model.print;
 
 import java.awt.print.PageFormat;
 import java.awt.print.Paper;
@@ -11,8 +11,8 @@ import java.util.ArrayList;
 import java.util.logging.Logger;
 
 import javax.print.PrintService;
-import util.PropertyHandler;
-import model.IModelToViewAdapter;
+import main.java.util.PropertyHandler;
+import main.java.model.IModelToViewAdapter;
 
 
 public class LabelPrinter {

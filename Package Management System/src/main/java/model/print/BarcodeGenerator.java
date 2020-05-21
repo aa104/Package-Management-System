@@ -1,4 +1,4 @@
-package model.print;
+package main.java.model.print;
 
 /*
  * Copyright 2010 Jeremias Maerki

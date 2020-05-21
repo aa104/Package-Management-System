@@ -1,4 +1,4 @@
-package view.panel;
+package main.java.view.panel;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -7,11 +7,11 @@ import java.util.Map;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
-import view.IViewToModelAdaptor;
-import view.MainFrame;
-import view.dialog.ChangeEmail;
-import view.dialog.EditTemplate;
-import view.dialog.EditTemplateEasy;
+import main.java.view.IViewToModelAdaptor;
+import main.java.view.MainFrame;
+import main.java.view.dialog.ChangeEmail;
+import main.java.view.dialog.EditTemplate;
+import main.java.view.dialog.EditTemplateEasy;
 
 import com.jgoodies.forms.factories.FormFactory;
 import com.jgoodies.forms.layout.ColumnSpec;

@@ -1,4 +1,4 @@
-package view.panel;
+package main.java.view.panel;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -28,10 +28,10 @@ import javax.swing.filechooser.FileFilter;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableRowSorter;
 
-import util.Person;
-import view.IViewToModelAdaptor;
-import view.MainFrame;
-import view.dialog.AddPerson;
+import main.java.util.Person;
+import main.java.view.IViewToModelAdaptor;
+import main.java.view.MainFrame;
+import main.java.view.dialog.AddPerson;
 
 import com.jgoodies.forms.factories.FormFactory;
 import com.jgoodies.forms.layout.ColumnSpec;

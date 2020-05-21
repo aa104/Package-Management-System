@@ -1,4 +1,4 @@
-package view.dialog;
+package main.java.view.dialog;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;

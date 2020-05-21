@@ -1,4 +1,4 @@
-package model.email;
+package main.java.model.email;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -17,8 +17,8 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import util.FileIO;
-import model.IModelToViewAdapter;
+import main.java.util.FileIO;
+import main.java.model.IModelToViewAdapter;
 
 public class TemplateHandler {
 

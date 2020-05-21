@@ -1,4 +1,4 @@
-package util;
+package main.java.util;
 
 /*
  * Package class contains variables necessary to define a package

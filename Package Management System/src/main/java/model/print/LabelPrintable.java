@@ -1,4 +1,4 @@
-package model.print;
+package main.java.model.print;
 
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;

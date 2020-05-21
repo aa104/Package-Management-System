@@ -1,4 +1,4 @@
-package view;
+package main.java.view;
 
 import java.awt.BorderLayout;
 import java.util.logging.Logger;
@@ -9,10 +9,10 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JOptionPane;
 import javax.swing.JTabbedPane;
 
-import view.dialog.ChangeEmail;
-import view.panel.PanelCheckIn;
-import view.panel.PanelPickUp;
-import view.panel.TabbedPaneAdmin;
+import main.java.view.dialog.ChangeEmail;
+import main.java.view.panel.PanelCheckIn;
+import main.java.view.panel.PanelPickUp;
+import main.java.view.panel.TabbedPaneAdmin;
 
 import javax.swing.event.ChangeListener;
 import javax.swing.event.ChangeEvent;

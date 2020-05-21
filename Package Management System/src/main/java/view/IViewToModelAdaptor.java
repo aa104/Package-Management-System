@@ -1,11 +1,11 @@
-package view;
+package main.java.view;
 
 import java.util.ArrayList;
 import java.util.Map;
 
-import util.Package;
-import util.Pair;
-import util.Person;
+import main.java.util.Package;
+import main.java.util.Pair;
+import main.java.util.Person;
 
 /*
  * Interface outlining the operations that can be performed by the view (MainFrame)

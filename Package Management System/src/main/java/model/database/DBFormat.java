@@ -1,4 +1,4 @@
-package model.database;
+package main.java.model.database;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -7,9 +7,10 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.Iterator;
 
-import util.Pair;
-import util.Person;
-import util.Package;
+import main.java.util.Pair;
+
+import main.java.util.Person;
+import main.java.util.Package;
 
 public class DBFormat {
 	

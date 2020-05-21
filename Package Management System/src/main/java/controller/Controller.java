@@ -1,20 +1,20 @@
-package controller;
+package main.java.controller;
 
 import java.awt.EventQueue;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.logging.Logger;
 
-import model.IModelToViewAdapter;
-import model.PackageManager;
-import util.FileIO;
-import util.LogHandler;
-import util.Package;
-import util.Pair;
-import util.Person;
-import util.PropertyHandler;
-import view.IViewToModelAdaptor;
-import view.MainFrame;
+import main.java.model.IModelToViewAdapter;
+import main.java.model.PackageManager;
+import main.java.util.FileIO;
+import main.java.util.LogHandler;
+import main.java.util.Package;
+import main.java.util.Pair;
+import main.java.util.Person;
+import main.java.util.PropertyHandler;
+import main.java.view.IViewToModelAdaptor;
+import main.java.view.MainFrame;
 
 /**
  * Controller controlling the view and the underlying model,
@@ -35,6 +35,7 @@ public class Controller{
 	 * Function which initializes and starts the controller
 	 */
 	public static void main(String[] args) {
+		System.out.println("mvc started..!!!!");
 		EventQueue.invokeLater(() -> {
 			try {
 				Controller control = new Controller();
@@ -200,9 +201,10 @@ public class Controller{
 	 */
 	public void init() {
 		// set and create root directory, if it doesn't exist
-//		String home = System.getProperty("user.home");
-		this.progDirName = "C:\\Users\\Ayo\\Desktop\\Rice\\Personal Projects\\" +
-				"Package-Management-System";
+		String home = System.getProperty("user.home");
+		this.progDirName = home + "/Documents/Package Management System";
+//		this.progDirName = "C:\\Users\\Ayo\\Desktop\\Rice\\Personal Projects\\" +
+//				"Package-Management-System";
 
 
 		FileIO.init(progDirName);
